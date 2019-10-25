@@ -1,6 +1,5 @@
 classdef ArrayDBE
     % Class for the ArraySystem digital back-end
-    
     properties
         arraySystem(1,1) ArraySystem
     end
@@ -11,8 +10,6 @@ classdef ArrayDBE
             if nargin >= 1, obj.arraySystem = arraySystem; end
             
         end
-        
-        
         function [X,freq] = getPortFFT(obj,x,overSampFact)
             % x is a typical output from ArraySystem.getPortSignal
             % A signal matrix of size [Nant, Nsamp]

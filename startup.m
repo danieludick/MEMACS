@@ -19,7 +19,6 @@
 %
 
 function startup
-
 % get location of this file (toolbox root path)
 p = mfilename('fullpath');
 MEMACSroot = p(1:end-7);
@@ -30,5 +29,4 @@ addpath(genpath([MEMACSroot,'data']))
 addpath(genpath([MEMACSroot,'developerScratch']))
 addpath(genpath([MEMACSroot,'testScripts']))
 addpath(genpath([MEMACSroot,'utils']))
-
 end

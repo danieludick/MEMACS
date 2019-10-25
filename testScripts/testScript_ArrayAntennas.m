@@ -14,7 +14,7 @@ fIF = 4.096e6;
 fLO = fRF - fIF;
 
 fSamp = 4*fIF;          % Sample rate in Hz
-Nt = 2^5;                % Number of time samples
+Nt = 2^5;               % Number of time samples
 delT = 1/fSamp;
 t0 = 0;
 tsamp = t0:delT:(t0+delT*(Nt-1));
